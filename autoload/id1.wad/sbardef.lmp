@@ -1,6 +1,6 @@
 {
   "type": "statusbar",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "data": {
     "numberfonts": [
       {
@@ -855,19 +855,7 @@
               ]
             },
             "_cacoco_name": "Max Ammo Group"
-          },
-		  {
-			"carousel":
-			{
-			  "x":0,
-			  "y":18,
-			  "alignment":0,
-			  "tranmap":null,
-			  "translation":null,
-			  "conditions":[],
-			  "children":[]
-			}
-		  }
+          }
         ]
       },
       {
@@ -877,10 +865,10 @@
         "fillflat": null,
         "children": [
           {
-            "list": {
-              "x": 4,
-              "y": 151,
-              "alignment": 64,
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "alignment": 0,
               "tranmap": null,
               "translation": null,
               "translucency": false,
@@ -893,23 +881,17 @@
               ],
               "children": [
                 {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
+                  "list": {
+                    "x": 4,
+                    "y": 151,
+                    "alignment": 64,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 19,
-                        "param2": 0
-                      }
-                    ],
+                    "conditions": [],
                     "children": [
                       {
-                        "animation": {
+                        "canvas": {
                           "x": 0,
                           "y": 0,
                           "alignment": 0,
@@ -918,358 +900,108 @@
                           "translucency": false,
                           "conditions": [
                             {
-                              "condition": 57,
-                              "param": 6,
-                              "param2": 2
-                            }
-                          ],
-                          "children": [],
-                          "frames": [
-                            {
-                              "lump": "HUDINVIS",
-                              "duration": 0.2857142857142857
-                            },
-                            {
-                              "lump": "TNT1A0",
-                              "duration": 0.2857142857142857
-                            }
-                          ],
-                          "framerate": 35.0
-                        },
-                        "_cacoco_name": "Invisibility Flashing"
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 58,
-                              "param": 6,
-                              "param2": 2
-                            }
-                          ],
-                          "children": [],
-                          "patch": "HUDINVIS"
-                        },
-                        "_cacoco_name": "Invisibility Label"
-                      },
-                      {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "font": "Automap (Orange)",
-                          "type": 17,
-                          "param": 2,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Invisibility Ending"
-                      },
-                      {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 58,
-                              "param": 6,
-                              "param2": 2
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 17,
-                          "param": 2,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Invisibility Timer"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Partial Invisibility"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 20,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "animation": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 57,
-                              "param": 6,
-                              "param2": 3
-                            }
-                          ],
-                          "children": [],
-                          "frames": [
-                            {
-                              "lump": "HUDSUIT",
-                              "duration": 0.2857142857142857
-                            },
-                            {
-                              "lump": "TNT1A0",
-                              "duration": 0.2857142857142857
-                            }
-                          ],
-                          "framerate": 35.0
-                        },
-                        "_cacoco_name": "Suit Flashing"
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 58,
-                              "param": 6,
-                              "param2": 3
-                            }
-                          ],
-                          "children": [],
-                          "patch": "HUDSUIT"
-                        },
-                        "_cacoco_name": "Suit Label"
-                      },
-                      {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "font": "Automap (Orange)",
-                          "type": 17,
-                          "param": 3,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Rad Suit Ending"
-                      },
-                      {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 58,
-                              "param": 6,
-                              "param2": 3
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 17,
-                          "param": 3,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Rad Suit Timer"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Rad Suit"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 17,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "animation": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 57,
-                              "param": 6,
-                              "param2": 5
-                            }
-                          ],
-                          "children": [],
-                          "frames": [
-                            {
-                              "lump": "HUDLIGHT",
-                              "duration": 0.2857142857142857
-                            },
-                            {
-                              "lump": "TNT1A0",
-                              "duration": 0.2857142857142857
-                            }
-                          ],
-                          "framerate": 35.0
-                        },
-                        "_cacoco_name": "Night Vision Flashing"
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 58,
-                              "param": 6,
-                              "param2": 5
-                            }
-                          ],
-                          "children": [],
-                          "patch": "HUDLIGHT"
-                        },
-                        "_cacoco_name": "Night Vision Label"
-                      },
-                      {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "font": "Automap (Orange)",
-                          "type": 17,
-                          "param": 5,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Night Vision Ending"
-                      },
-                      {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 58,
-                              "param": 6,
-                              "param2": 5
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 17,
-                          "param": 5,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Night Vision Timer"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Night Vision"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 21,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "animation": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 57,
-                              "param": 6,
+                              "condition": 10,
+                              "param": 19,
                               "param2": 0
                             }
                           ],
-                          "children": [],
-                          "frames": [
+                          "children": [
                             {
-                              "lump": "HUDINVUL",
-                              "duration": 0.2857142857142857
+                              "animation": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 57,
+                                    "param": 6,
+                                    "param2": 2
+                                  }
+                                ],
+                                "children": [],
+                                "frames": [
+                                  {
+                                    "lump": "HUDINVIS",
+                                    "duration": 0.2857142857142857
+                                  },
+                                  {
+                                    "lump": "TNT1A0",
+                                    "duration": 0.2857142857142857
+                                  }
+                                ],
+                                "framerate": 35.0
+                              },
+                              "_cacoco_name": "Invisibility Flashing"
                             },
                             {
-                              "lump": "TNT1A0",
-                              "duration": 0.2857142857142857
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 2
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "HUDINVIS"
+                              },
+                              "_cacoco_name": "Invisibility Label"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "font": "Automap (Orange)",
+                                "type": 17,
+                                "param": 2,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Invisibility Ending"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 2
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 17,
+                                "param": 2,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Invisibility Timer"
                             }
-                          ],
-                          "framerate": 35.0
+                          ]
                         },
-                        "_cacoco_name": "Invulnerability Flashing"
+                        "_cacoco_name": "Partial Invisibility"
                       },
                       {
-                        "graphic": {
+                        "canvas": {
                           "x": 0,
                           "y": 0,
                           "alignment": 0,
@@ -1278,105 +1010,487 @@
                           "translucency": false,
                           "conditions": [
                             {
-                              "condition": 58,
-                              "param": 6,
+                              "condition": 10,
+                              "param": 20,
                               "param2": 0
                             }
                           ],
-                          "children": [],
-                          "patch": "HUDINVUL"
+                          "children": [
+                            {
+                              "animation": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 57,
+                                    "param": 6,
+                                    "param2": 3
+                                  }
+                                ],
+                                "children": [],
+                                "frames": [
+                                  {
+                                    "lump": "HUDSUIT",
+                                    "duration": 0.2857142857142857
+                                  },
+                                  {
+                                    "lump": "TNT1A0",
+                                    "duration": 0.2857142857142857
+                                  }
+                                ],
+                                "framerate": 35.0
+                              },
+                              "_cacoco_name": "Suit Flashing"
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 3
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "HUDSUIT"
+                              },
+                              "_cacoco_name": "Suit Label"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "font": "Automap (Orange)",
+                                "type": 17,
+                                "param": 3,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Rad Suit Ending"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 3
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 17,
+                                "param": 3,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Rad Suit Timer"
+                            }
+                          ]
                         },
-                        "_cacoco_name": "Invulnerability Label"
+                        "_cacoco_name": "Rad Suit"
                       },
                       {
-                        "number": {
-                          "x": 9,
-                          "y": 6,
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
                           "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 17,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "animation": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 57,
+                                    "param": 6,
+                                    "param2": 5
+                                  }
+                                ],
+                                "children": [],
+                                "frames": [
+                                  {
+                                    "lump": "HUDLIGHT",
+                                    "duration": 0.2857142857142857
+                                  },
+                                  {
+                                    "lump": "TNT1A0",
+                                    "duration": 0.2857142857142857
+                                  }
+                                ],
+                                "framerate": 35.0
+                              },
+                              "_cacoco_name": "Night Vision Flashing"
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 5
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "HUDLIGHT"
+                              },
+                              "_cacoco_name": "Night Vision Label"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "font": "Automap (Orange)",
+                                "type": 17,
+                                "param": 5,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Night Vision Ending"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 5
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 17,
+                                "param": 5,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Night Vision Timer"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Night Vision"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 21,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "animation": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 57,
+                                    "param": 6,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "frames": [
+                                  {
+                                    "lump": "HUDINVUL",
+                                    "duration": 0.2857142857142857
+                                  },
+                                  {
+                                    "lump": "TNT1A0",
+                                    "duration": 0.2857142857142857
+                                  }
+                                ],
+                                "framerate": 35.0
+                              },
+                              "_cacoco_name": "Invulnerability Flashing"
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "HUDINVUL"
+                              },
+                              "_cacoco_name": "Invulnerability Label"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "font": "Automap (Orange)",
+                                "type": 17,
+                                "param": 0,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Invulnerability Ending"
+                            },
+                            {
+                              "number": {
+                                "x": 9,
+                                "y": 6,
+                                "alignment": 0,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 58,
+                                    "param": 6,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 17,
+                                "param": 0,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Invulnerability Timer"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Invulnerability"
+                      }
+                    ],
+                    "horizontal": true,
+                    "spacing": 5
+                  },
+                  "_cacoco_name": "Powerups"
+                },
+                {
+                  "canvas": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
+                      {
+                        "number": {
+                          "x": 24,
+                          "y": 187,
+                          "alignment": 73,
                           "tranmap": null,
                           "translation": null,
                           "translucency": false,
                           "conditions": [],
                           "children": [],
-                          "font": "Automap (Orange)",
-                          "type": 17,
+                          "font": "Classic Status Bar",
+                          "type": 0,
                           "param": 0,
                           "maxlength": 3
-                        },
-                        "_cacoco_name": "Invulnerability Ending"
+                        }
                       },
                       {
+                        "graphic": {
+                          "x": 10,
+                          "y": 190,
+                          "alignment": 64,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "patch": "TAG_HEAL"
+                        },
+                        "_cacoco_name": "Health Label"
+                      },
+                      {
+                        "face": {
+                          "x": 42,
+                          "y": 166,
+                          "alignment": 64,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 0,
+                          "height": 0,
+                          "topoffset": 0,
+                          "leftoffset": 0,
+                          "midoffset": 0
+                        }
+                      }
+                    ]
+                  },
+                  "_cacoco_name": "Health"
+                },
+                {
+                  "canvas": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 27,
+                        "param": 1,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [
+                      {
                         "number": {
-                          "x": 9,
-                          "y": 6,
-                          "alignment": 0,
+                          "x": 95,
+                          "y": 187,
+                          "alignment": 73,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "font": "Classic Status Bar",
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 75,
+                          "y": 190,
+                          "alignment": 64,
                           "tranmap": null,
                           "translation": null,
                           "translucency": false,
                           "conditions": [
                             {
-                              "condition": 58,
-                              "param": 6,
+                              "condition": 10,
+                              "param": 14,
                               "param2": 0
                             }
                           ],
                           "children": [],
-                          "font": "Automap (White)",
-                          "type": 17,
-                          "param": 0,
-                          "maxlength": 3
+                          "patch": "GREENARM"
                         },
-                        "_cacoco_name": "Invulnerability Timer"
+                        "_cacoco_name": "Green Armor Label"
+                      },
+                      {
+                        "graphic": {
+                          "x": 75,
+                          "y": 190,
+                          "alignment": 64,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 15,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "BLUARM"
+                        },
+                        "_cacoco_name": "Blue Armor Label"
                       }
                     ]
                   },
-                  "_cacoco_name": "Invulnerability"
+                  "_cacoco_name": "Armor"
                 }
-              ],
-              "horizontal": true,
-              "spacing": 5
+              ]
             },
-            "_cacoco_name": "Powerups"
+            "_cacoco_name": "HP, Armor, Powerups"
           },
           {
-            "graphic": {
-              "x": 318,
-              "y": 141,
-              "alignment": 138,
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "alignment": 0,
               "tranmap": null,
               "translation": null,
               "translucency": false,
               "conditions": [
-                {
-                  "condition": 23,
-                  "param": 1,
-                  "param2": 0
-                },
-                {
-                  "condition": 10,
-                  "param": 18,
-                  "param2": 0
-                },
                 {
                   "condition": 4,
                   "param": 10,
                   "param2": 0
-                }
-              ],
-              "children": [],
-              "patch": "OWNBRSRK"
-            },
-            "_cacoco_name": "Berserk (Using Ranged)"
-          },
-          {
-            "canvas": {
-              "x": 0,
-              "y": 0,
-              "alignment": 0,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
+                },
                 {
                   "condition": 23,
                   "param": 1,
@@ -1385,55 +1499,665 @@
               ],
               "children": [
                 {
-                  "number": {
-                    "x": 24,
-                    "y": 187,
-                    "alignment": 73,
+                  "canvas": {
+                    "x": 295,
+                    "y": 196,
+                    "alignment": 9,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
                     "conditions": [],
-                    "children": [],
-                    "font": "Classic Status Bar",
-                    "type": 0,
-                    "param": 0,
-                    "maxlength": 3
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 10,
-                    "y": 190,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [],
-                    "children": [],
-                    "patch": "TAG_HEAL"
+                    "children": [
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": -6,
+                          "alignment": 9,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": -3,
+                                "alignment": 137,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 4,
+                                    "param": 0,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Classic Status Bar",
+                                "type": 4,
+                                "param": 0,
+                                "maxlength": 3
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 129,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "BULLETS"
+                              },
+                              "_cacoco_name": "Bullets Label"
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 129,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "SHELLS"
+                              },
+                              "_cacoco_name": "Shells Label"
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 129,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "ROCKETS"
+                              },
+                              "_cacoco_name": "Rockets Label"
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 129,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "patch": "FUELNUSE"
+                              },
+                              "_cacoco_name": "Cells Label"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Current Ammo"
+                      },
+                      {
+                        "graphic": {
+                          "x": -28,
+                          "y": 0,
+                          "alignment": 138,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 18,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "OWNBRSRK"
+                        },
+                        "_cacoco_name": "Berserk (Ranged)"
+                      }
+                    ]
                   },
-                  "_cacoco_name": "Health Label"
+                  "_cacoco_name": "Static Info"
                 },
                 {
-                  "face": {
-                    "x": 42,
-                    "y": 166,
-                    "alignment": 64,
+                  "list": {
+                    "x": 327,
+                    "y": 160,
+                    "alignment": 130,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
                     "conditions": [],
-                    "children": [],
-                    "width": 0,
-                    "height": 0,
-                    "topoffset": 0,
-                    "leftoffset": 0,
-                    "midoffset": 0
-                  }
+                    "children": [
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 1,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "NHWEAP1"
+                              },
+                              "_cacoco_name": "Total Bullets Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Bullets Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Bullets Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Bullets"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 2,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 2,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 1
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "NHWEAP2"
+                              },
+                              "_cacoco_name": "Total Shells Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Shells Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Shells Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Shells"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 2,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 4,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 3
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "NHWEAP4"
+                              },
+                              "_cacoco_name": "Total Rockets Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Rockets Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Rockets Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Rockets"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 5,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 2
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "FUELLABL"
+                              },
+                              "_cacoco_name": "Total Cells Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Cells Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Cells Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Cells"
+                      }
+                    ],
+                    "horizontal": true,
+                    "spacing": 10
+                  },
+                  "_cacoco_name": "Total Ammo"
+                },
+                {
+                  "list": {
+                    "x": 319,
+                    "y": 146,
+                    "alignment": 130,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS2"
+                        },
+                        "_cacoco_name": "Red Key"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 6,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS5"
+                        },
+                        "_cacoco_name": "Red Skull"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 1,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS0"
+                        },
+                        "_cacoco_name": "Blue Key"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS3"
+                        },
+                        "_cacoco_name": "Blue Skull"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 2,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS1"
+                        },
+                        "_cacoco_name": "Yellow Key"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 5,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS4"
+                        },
+                        "_cacoco_name": "Yellow Skull"
+                      }
+                    ],
+                    "horizontal": true,
+                    "spacing": 4
+                  },
+                  "_cacoco_name": "Keys Ranged"
                 }
               ]
             },
-            "_cacoco_name": "Health"
+            "_cacoco_name": "Ranged Weapons Stack"
           },
           {
             "canvas": {
@@ -1445,86 +2169,40 @@
               "translucency": false,
               "conditions": [
                 {
-                  "condition": 23,
+                  "condition": 2,
                   "param": 1,
                   "param2": 0
                 },
                 {
-                  "condition": 27,
-                  "param": 1,
+                  "condition": 2,
+                  "param": 2,
                   "param2": 0
-                }
-              ],
-              "children": [
-                {
-                  "number": {
-                    "x": 95,
-                    "y": 187,
-                    "alignment": 73,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [],
-                    "children": [],
-                    "font": "Classic Status Bar",
-                    "type": 1,
-                    "param": 0,
-                    "maxlength": 3
-                  }
                 },
                 {
-                  "graphic": {
-                    "x": 75,
-                    "y": 190,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 14,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "GREENARM"
-                  },
-                  "_cacoco_name": "Green Armor Label"
+                  "condition": 2,
+                  "param": 3,
+                  "param2": 0
                 },
                 {
-                  "graphic": {
-                    "x": 75,
-                    "y": 190,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 15,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "BLUARM"
-                  },
-                  "_cacoco_name": "Blue Armor Label"
-                }
-              ]
-            },
-            "_cacoco_name": "Armor"
-          },
-          {
-            "canvas": {
-              "x": 0,
-              "y": 0,
-              "alignment": 0,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
+                  "condition": 2,
+                  "param": 4,
+                  "param2": 0
+                },
+                {
+                  "condition": 2,
+                  "param": 5,
+                  "param2": 0
+                },
+                {
+                  "condition": 2,
+                  "param": 6,
+                  "param2": 0
+                },
+                {
+                  "condition": 2,
+                  "param": 8,
+                  "param2": 0
+                },
                 {
                   "condition": 23,
                   "param": 1,
@@ -1533,110 +2211,535 @@
               ],
               "children": [
                 {
-                  "number": {
-                    "x": 296,
-                    "y": 187,
+                  "graphic": {
+                    "x": 280,
+                    "y": 196,
                     "alignment": 137,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
                     "conditions": [
                       {
-                        "condition": 4,
-                        "param": 0,
+                        "condition": 10,
+                        "param": 18,
                         "param2": 0
                       }
                     ],
                     "children": [],
-                    "font": "Classic Status Bar",
-                    "type": 4,
-                    "param": 0,
-                    "maxlength": 3
-                  }
+                    "patch": "OWNBRSRK"
+                  },
+                  "_cacoco_name": "Berserk (Using Melee)"
                 },
                 {
-                  "graphic": {
-                    "x": 279,
-                    "y": 190,
-                    "alignment": 128,
+                  "list": {
+                    "x": 297,
+                    "y": 198,
+                    "alignment": 138,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
-                    "conditions": [
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 5,
-                        "param": 0,
-                        "param2": 0
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS2"
+                        },
+                        "_cacoco_name": "Red Key"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 6,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS5"
+                        },
+                        "_cacoco_name": "Red Skull"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 1,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS0"
+                        },
+                        "_cacoco_name": "Blue Key"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS3"
+                        },
+                        "_cacoco_name": "Blue Skull"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 2,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS1"
+                        },
+                        "_cacoco_name": "Yellow Key"
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 48,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 5,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "patch": "STKEYS4"
+                        },
+                        "_cacoco_name": "Yellow Skull"
                       }
                     ],
-                    "children": [],
-                    "patch": "BULLETS"
+                    "horizontal": false,
+                    "spacing": 2
                   },
-                  "_cacoco_name": "Bullets Label"
+                  "_cacoco_name": "Keys Melee"
                 },
                 {
-                  "graphic": {
-                    "x": 281,
-                    "y": 190,
-                    "alignment": 128,
+                  "list": {
+                    "x": 320,
+                    "y": 201,
+                    "alignment": 138,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
-                    "conditions": [
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 5,
-                        "param": 1,
-                        "param2": 0
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 1,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "NHWEAP1"
+                              },
+                              "_cacoco_name": "Total Bullets Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Bullets Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Bullets Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Bullets"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 2,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 1
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "NHWEAP2"
+                              },
+                              "_cacoco_name": "Total Shells Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Shells Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Shells Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Shells"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 4,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 3
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "NHWEAP4"
+                              },
+                              "_cacoco_name": "Total Rockets Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Rockets Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Rockets Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Rockets"
+                      },
+                      {
+                        "canvas": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 2,
+                              "param": 5,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6,
+                              "param2": 0
+                            },
+                            {
+                              "condition": 35,
+                              "param": 1,
+                              "param2": 2
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 1,
+                                "y": -2,
+                                "alignment": 5,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [],
+                                "children": [],
+                                "patch": "FUELLABL"
+                              },
+                              "_cacoco_name": "Total Cells Label"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 11,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (White)",
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Cells Normal"
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 1,
+                                "tranmap": null,
+                                "translation": null,
+                                "translucency": false,
+                                "conditions": [
+                                  {
+                                    "condition": 10,
+                                    "param": 7,
+                                    "param2": 0
+                                  }
+                                ],
+                                "children": [],
+                                "font": "Automap (Yellow)",
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3
+                              },
+                              "_cacoco_name": "Total Cells Backpack"
+                            }
+                          ]
+                        },
+                        "_cacoco_name": "Total Cells"
                       }
                     ],
-                    "children": [],
-                    "patch": "SHELLS"
+                    "horizontal": false,
+                    "spacing": 5
                   },
-                  "_cacoco_name": "Shells Label"
-                },
-                {
-                  "graphic": {
-                    "x": 279,
-                    "y": 190,
-                    "alignment": 128,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 5,
-                        "param": 3,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "ROCKETS"
-                  },
-                  "_cacoco_name": "Rockets Label"
-                },
-                {
-                  "graphic": {
-                    "x": 284,
-                    "y": 190,
-                    "alignment": 128,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 5,
-                        "param": 2,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "FUELNUSE"
-                  },
-                  "_cacoco_name": "Cells Label"
+                  "_cacoco_name": "Total Ammo Melee"
                 }
               ]
             },
-            "_cacoco_name": "Current Ammo"
+            "_cacoco_name": "Melee Stack"
           },
           {
             "canvas": {
@@ -1718,1144 +2821,6 @@
               ]
             },
             "_cacoco_name": "On-Death Behavior"
-          },
-          {
-            "list": {
-              "x": 330,
-              "y": 160,
-              "alignment": 130,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
-                {
-                  "condition": 4,
-                  "param": 10,
-                  "param2": 0
-                },
-                {
-                  "condition": 23,
-                  "param": 1,
-                  "param2": 0
-                }
-              ],
-              "children": [
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 1,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 2,
-                        "param": 3,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "NHWEAP1"
-                        },
-                        "_cacoco_name": "Total Bullets Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Bullets Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Bullets Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Bullets"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 2,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 2,
-                        "param": 8,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 1
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "NHWEAP2"
-                        },
-                        "_cacoco_name": "Total Shells Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Shells Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Shells Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Shells"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 4,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 3
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "NHWEAP4"
-                        },
-                        "_cacoco_name": "Total Rockets Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Rockets Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Rockets Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Rockets"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 5,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 2,
-                        "param": 6,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 2
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "FUELLABL"
-                        },
-                        "_cacoco_name": "Total Cells Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Cells Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Cells Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Cells"
-                }
-              ],
-              "horizontal": true,
-              "spacing": 10
-            },
-            "_cacoco_name": "Total Ammo Ranged"
-          },
-          {
-            "list": {
-              "x": 320,
-              "y": 146,
-              "alignment": 130,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
-                {
-                  "condition": 4,
-                  "param": 10,
-                  "param2": 0
-                },
-                {
-                  "condition": 23,
-                  "param": 1,
-                  "param2": 0
-                }
-              ],
-              "children": [
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 3,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS2"
-                  },
-                  "_cacoco_name": "Red Key"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 6,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS5"
-                  },
-                  "_cacoco_name": "Red Skull"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 1,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS0"
-                  },
-                  "_cacoco_name": "Blue Key"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 4,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS3"
-                  },
-                  "_cacoco_name": "Blue Skull"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 2,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS1"
-                  },
-                  "_cacoco_name": "Yellow Key"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 5,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS4"
-                  },
-                  "_cacoco_name": "Yellow Skull"
-                }
-              ],
-              "horizontal": true,
-              "spacing": 3
-            },
-            "_cacoco_name": "Keys Ranged"
-          },
-          {
-            "list": {
-              "x": 320,
-              "y": 201,
-              "alignment": 138,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
-                {
-                  "condition": 2,
-                  "param": 1,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 2,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 8,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 3,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 4,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 5,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 6,
-                  "param2": 0
-                },
-                {
-                  "condition": 23,
-                  "param": 1,
-                  "param2": 0
-                }
-              ],
-              "children": [
-                {
-                  "graphic": {
-                    "x": -5,
-                    "y": -4,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 18,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "OWNBRSRK"
-                  },
-                  "_cacoco_name": "Berserk (Using Melee)"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 1,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 2,
-                        "param": 3,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "NHWEAP1"
-                        },
-                        "_cacoco_name": "Total Bullets Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Bullets Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Bullets Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Bullets"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 2,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 2,
-                        "param": 8,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 1
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "NHWEAP2"
-                        },
-                        "_cacoco_name": "Total Shells Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Shells Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Shells Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Shells"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 4,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 3
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "NHWEAP4"
-                        },
-                        "_cacoco_name": "Total Rockets Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Rockets Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Rockets Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Rockets"
-                },
-                {
-                  "canvas": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 2,
-                        "param": 5,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 2,
-                        "param": 6,
-                        "param2": 0
-                      },
-                      {
-                        "condition": 35,
-                        "param": 1,
-                        "param2": 2
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 1,
-                          "y": -2,
-                          "alignment": 5,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [],
-                          "children": [],
-                          "patch": "FUELLABL"
-                        },
-                        "_cacoco_name": "Total Cells Label"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (White)",
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Cells Normal"
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 1,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "font": "Automap (Yellow)",
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3
-                        },
-                        "_cacoco_name": "Total Cells Backpack"
-                      }
-                    ]
-                  },
-                  "_cacoco_name": "Total Cells"
-                }
-              ],
-              "horizontal": false,
-              "spacing": 5
-            },
-            "_cacoco_name": "Total Ammo Melee"
-          },
-          {
-            "list": {
-              "x": 297,
-              "y": 198,
-              "alignment": 138,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
-                {
-                  "condition": 2,
-                  "param": 1,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 2,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 3,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 4,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 5,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 6,
-                  "param2": 0
-                },
-                {
-                  "condition": 2,
-                  "param": 8,
-                  "param2": 0
-                },
-                {
-                  "condition": 23,
-                  "param": 1,
-                  "param2": 0
-                }
-              ],
-              "children": [
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 3,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS2"
-                  },
-                  "_cacoco_name": "Red Key"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 6,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS5"
-                  },
-                  "_cacoco_name": "Red Skull"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 1,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS0"
-                  },
-                  "_cacoco_name": "Blue Key"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 4,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS3"
-                  },
-                  "_cacoco_name": "Blue Skull"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 2,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS1"
-                  },
-                  "_cacoco_name": "Yellow Key"
-                },
-                {
-                  "graphic": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 48,
-                    "tranmap": null,
-                    "translation": null,
-                    "translucency": false,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 5,
-                        "param2": 0
-                      }
-                    ],
-                    "children": [],
-                    "patch": "STKEYS4"
-                  },
-                  "_cacoco_name": "Yellow Skull"
-                }
-              ],
-              "horizontal": false,
-              "spacing": 2
-            },
-            "_cacoco_name": "Keys Melee"
           },
           {
             "component": {
@@ -2980,19 +2945,7 @@
               "vertical": false,
               "duration": 4.0
             }
-          },
-		  {
-			"carousel":
-			{
-			  "x":0,
-			  "y":25,
-			  "alignment":0,
-			  "tranmap":null,
-			  "translation":null,
-			  "conditions":[],
-			  "children":[]
-			}
-		  }
+          }
         ]
       }
     ]
