@@ -1,0 +1,37 @@
+Patch File for DeHackEd v3.0
+# Created with DECOHack v0.47.0 by Matt Tropiano
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 21
+Patch format = 6
+
+
+[STRINGS]
+OB_BABY = Melted by an arachnotron
+OB_BARON = Burned by a baron of hell
+OB_BARONHIT = pulverizd by a baron of hell
+OB_CACO = Smitten by a cacodemon
+OB_CACOHIT = Chomped by a cacodemon
+OB_CHAINGUY = Perforated by a possessed commando
+OB_CRUSH = Flattened
+OB_CYBORG = Destroyed by a cyberdemon
+OB_DEFAULT = Fatal lack of spatial awareness
+OB_DEMONHIT = Mauled by a demon
+OB_FATSO = Immolated by a mancubus
+OB_IMP = Incinerated by an imp
+OB_IMPHIT = Disemboweled by an imp
+OB_KNIGHT = Burned by a hell knight
+OB_KNIGHTHIT = pulverized by a hell knight
+OB_LAVA = Melted in lava
+OB_SHOTGUY = Shredded by a possessed sergeant
+OB_SKULL = Spooked by a lost soul
+OB_SLIME = Exposure to toxic sludge
+OB_SPECTREHIT = Savaged by a spectre
+OB_SPIDER = Obliterated by the Spider Mastermind
+OB_SUICIDE = SUICIDE
+OB_UNDEAD = Rekt by a revenant
+OB_UNDEADHIT = Rekt by a Revenant
+OB_VILE = Sent to Hell by an Archvile
+OB_WOLFSS = Von einem Waffen-SS-Mitglied erschossen.
+OB_ZOMBIE = Popped by a possessed soldier
+
