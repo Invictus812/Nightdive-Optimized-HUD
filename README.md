@@ -1,4 +1,4 @@
-# Nightdive-Optimized-HUD
+# SBARDEF HUD: Nightdive Optimized v0.9
 Currently in beta: A hyper-optimized HUD for Doom inspired by the modified Nightdive HUDs by NightFright2k19 and liPillON. 
 Only compatible with recent builds of Woof! at this time.
 Please skip to the bottom for a bulleted list of features.
