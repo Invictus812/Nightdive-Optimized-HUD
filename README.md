@@ -42,7 +42,7 @@ I think this thing's pretty-well feature-complete, but there's absolutely no way
 - New death screen behavior.
 
 **Credits:**  
-Roman Formin & Fabian Greffrath - Woof and SBARDEF development  
-Lizzie ShinKicker & Roman Formin - Cacoco Editor  
+Roman Fomin & Fabian Greffrath - Woof and SBARDEF development  
+Lizzie ShinKicker & Roman Fomin - Cacoco Editor  
 NightFright2k19 & liPillON - Modified Nightdive HUDs for inspiration  
 Nightdive - The original Nightdive HUD, duh.  
