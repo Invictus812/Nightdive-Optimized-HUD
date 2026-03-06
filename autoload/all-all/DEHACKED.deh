@@ -9,7 +9,7 @@ Patch format = 6
 [STRINGS]
 OB_BABY = Melted by an arachnotron
 OB_BARON = Burned by a baron of hell
-OB_BARONHIT = pulverizd by a baron of hell
+OB_BARONHIT = pulverized by a baron of hell
 OB_CACO = Smitten by a cacodemon
 OB_CACOHIT = Chomped by a cacodemon
 OB_CHAINGUY = Perforated by a possessed commando
@@ -28,7 +28,7 @@ OB_SKULL = Spooked by a lost soul
 OB_SLIME = Exposure to toxic sludge
 OB_SPECTREHIT = Savaged by a spectre
 OB_SPIDER = Obliterated by the Spider Mastermind
-OB_SUICIDE = SUICIDE
+OB_KILLEDSELF = SUICIDE
 OB_UNDEAD = Rekt by a revenant
 OB_UNDEADHIT = Rekt by a Revenant
 OB_VILE = Sent to Hell by an Archvile
